@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="visualization.shadertoy" version="1.0.2" name="Shadertoy" provider-name="popcornmix">
+  <extension point="xbmc.player.musicviz" library_linux="visualization.shadertoy.so"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Visualisations from Shadertoy</summary>
+    <description lang="en">Visualisations from Shadertoy</description>
+    <platform>linux</platform>
+  </extension>
+</addon>
+
+<addon id="screensaver.shadertoy" version="1.0.2" name="ShaderToy" provider-name="popcornmix">
+  <extension point="xbmc.ui.screensaver" library_linux="screensaver.shadertoy.so"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>ShaderToy screensaver</summary>
+    <description>ShaderToy screensaver</description>
+    <platform>linux</platform>
+  </extension>
+</addon>
+</addons>
